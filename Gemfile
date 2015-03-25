@@ -38,3 +38,16 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+# Add test driven development
+group :development, :test do
+  gem 'capybara-webkit', '~> 0.14.2'
+  gem 'capybara', '2.0.3'
+  gem 'cucumber-rails', require: false
+  gem 'rspec-rails', '~> 2.14.0'
+end
+
+# reuired by cucumber
+group :test do
+  gem 'database_cleaner'
+end
