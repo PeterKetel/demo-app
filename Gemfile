@@ -45,6 +45,7 @@ group :development, :test do
   gem 'capybara', '2.0.3'
   gem 'cucumber-rails', require: false
   gem 'rspec-rails', '~> 2.14.0'
+  gem 'factory_girl_rails'
 end
 
 # reuired by cucumber
