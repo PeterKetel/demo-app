@@ -1,0 +1,46 @@
+" Press ? for help
+
+.. (up a dir)
+/home/fradiavolo/Projects/RubyExperiments/demo-app/
+▾ app/
+  ▸ assets/
+  ▾ controllers/
+      application_controller.rb
+      microposts_controller.rb
+      static_pages_controller.rb
+      users_controller.rb
+  ▸ helpers/
+  ▸ mailers/
+  ▸ models/
+  ▾ views/
+    ▸ layouts/
+    ▸ microposts/
+    ▾ static_pages/
+        help.html.erb
+        home.html.erb
+    ▸ users/
+▾ config/
+  ▸ environments/
+  ▸ initializers/
+  ▸ locales/
+    application.rb
+    boot.rb
+    cucumber.yml
+    database.yml
+    environment.rb
+    routes.rb
+▸ db/
+▸ doc/
+▸ features/
+▸ lib/
+▸ log/
+▸ public/
+▸ script/
+▸ spec/
+▸ test/
+▸ vendor/
+  config.ru
+  Gemfile
+  Gemfile.lock
+  Rakefile
+  README.rdoc
